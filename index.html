@@ -143,6 +143,28 @@
                             <p>Mold</p>
                         </div>
                     </div>
+                    <div class="content">
+                        <h2><a href="https://www.kromek.com/">Thing 1</a></h2>
+                        <body>
+
+                        <h1>Da venue</h1>
+
+                        <div id="googleMap" style="width:100%;height:400px;"></div>
+
+                        <script>
+                            function myMap() {
+                                var mapProp = {
+                                    center: new google.maps.LatLng(53.033665, -2.597778),
+                                    zoom: 18,
+                                };
+                                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                            }
+                        </script>
+
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARR50o03P68iVg4-goDKgMp3ZXoVE9LDo&callback=myMap"></script>
+
+                        </body>
+                    </div>
                     <div class="row text-center">
                         <div class="col-md-6" style="padding: 5px;">
                             <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
@@ -233,7 +255,8 @@
         <div class="row">
             <div class="col-sm-12 text-center content">
                 <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Ra'ad did this website with <span class="fa fa-heart pulse2"></span> for Lydia but mostly to improve his HTML</p>
+                <p>Ra'ad did this website with <span class="fa fa-heart pulse2"></span> for Lydia but mostly to improve
+                    his HTML</p>
             </div>
         </div>
     </div>
