@@ -127,7 +127,7 @@ html[xmlns] .flexslider .slides {
   transition: all 0.3s ease-in-out;
 }
 .flex-direction-nav a:before {
-  font-family: "fontawesome";
+  font-family: Baskerville, sans-serif;
   font-size: 60px;
   display: inline-block;
   content: '\f104';
@@ -176,7 +176,7 @@ html[xmlns] .flexslider .slides {
   color: #000;
 }
 .flex-pauseplay a:before {
-  font-family: "fontawesome";
+  font-family: Baskerville, sans-serif;
   font-size: 20px;
   display: inline-block;
   content: '\f04c';
